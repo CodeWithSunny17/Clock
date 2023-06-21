@@ -22,44 +22,69 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
-
+.tittle{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    font-size: 50px;
+    color: aquamarine;
+}
 #hour, #minute, #second{
-    background: rgb(255, 255, 255);
-    /* border-radius: 50%; */
+    width: 300px;
+    height: 140px;
+    /* background: white; */
+    border-radius: 1%;
     margin: 2.5%;
-    border-radius: 15%;
+    border: 5px solid aquamarine;
     text-align: center;
-    font-size: 400%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    font-size: 600%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* display: none; */
 }
 #hour{
-    width: 20%;
-    height: auto;
-    opacity: 1;
+    /* width: 20%; */
     /* transform-origin: bottom; */
+
 }
 #minute{
-    width: 20%;
-    height: auto;
+    /* width: 20%; */
     /* opacity: 0.75; */
     /* transform-origin: bottom; */
     /* display: none; */
+
 }
 #second{
-    width: 20%;
-    height: auto;
+    /* width: 20%; */
     /* opacity: 0.5; */
     /* transform-origin: bottom; */
     /* display: none; */
-}
-#brand{
-    color: white;
-    position: absolute;
-    top: 70%;
-    left: 43.4%;
-}
 
+}
+#hd, #md, #sd{
+    position: absolute;
+    width: 28.33%;
+    background: aquamarine;
+    /* border-radius: 10%; */
+    /* border-radius: 15%; */
+    /* text-align: center; */
+    /* font-size: 600%; */
+    /* padding-top: 5%; */
+    /* padding-bottom: 5%; */
+    /* display: none; */
+    z-index: -1;
+}
+#hd{
+    bottom: 33.5%;
+    left: 2.5%;
+}
+#md{
+    bottom: 33.5%;
+    left: 35.83%;
+}
+#sd{
+    bottom: 33.5%;
+    left: 69.16%;
+}

@@ -13,4 +13,4 @@ setInterval(() => {
     second.style.transform = `rotate(${sr}deg)`;
     console.log(d)
 
-}, 1000);
+}, 1000)
