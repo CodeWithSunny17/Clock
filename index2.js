@@ -4,9 +4,9 @@ setInterval(() => {
     m=d.getMinutes()
     s=d.getSeconds()
     // console.log(second)
-    hr=h*10;
-    mr=m*4;
-    sr=s*4;
+    hr=h*10.4347;
+    mr=m*4.0678;
+    sr=s*4.0678;
 
     document.getElementById("hour").innerHTML = h;
     document.getElementById("minute").innerHTML = m;
